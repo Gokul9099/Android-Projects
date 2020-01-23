@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">In Class 4</string>
+    <string name="minimun_value">Minimum:</string>
+    <string name="maximum_value">Maximum</string>
+    <string name="average_value">Average:</string>
+    <string name="button_async">Generate Number Async Task</string>
+    <string name="set_complexity">Select Complexity:</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout2"
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear_layout1"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="213dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="45dp"
+        android:contentDescription="@string/pizza_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear_layout2"
+        app:srcCompat="@drawable/pizza" />
+
+    <Switch
+        android:id="@+id/switch_delivery"
+        android:layout_width="110dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/pizza_delivery"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="414dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch_delivery" />
+
+    <Button
+        android:id="@+id/add_topping"
+        android:layout_width="164dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/add_pizza_topping"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <Button
+        android:id="@+id/clear_pizza"
+        android:layout_width="164dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/clear_pizza_topping"
+        app:layout_constraintStart_toEndOf="@+id/add_topping"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <Button
+        android:id="@+id/btn_checkout"
+        android:layout_width="382dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/pizza_checkout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clear_pizza" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

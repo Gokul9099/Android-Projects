@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_keyword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/searrch_keyword"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/go"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/im_image"
+        android:layout_width="363dp"
+        android:layout_height="251dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_keyword"
+        app:srcCompat="@android:drawable/alert_light_frame" />
+
+    <ImageButton
+        android:id="@+id/imb_next"
+        android:layout_width="80dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im_image"
+        app:srcCompat="@drawable/next" />
+
+    <ImageButton
+        android:id="@+id/imb_prev"
+        android:layout_width="81dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im_image"
+        app:srcCompat="@drawable/prev" />
+
+    <ProgressBar
+        android:id="@+id/pb_progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="145dp"
+        android:layout_height="139dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/im_image"
+        app:layout_constraintEnd_toEndOf="@+id/im_image"
+        app:layout_constraintStart_toStartOf="@+id/im_image"
+        app:layout_constraintTop_toTopOf="@+id/im_image" />
+</androidx.constraintlayout.widget.ConstraintLayout>

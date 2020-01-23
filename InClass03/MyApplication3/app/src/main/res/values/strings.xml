@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="input_male">Male</string>
+    <string name="input_female">Female</string>
+    <string name="title_gender">Select Gender :</string>
+    <string name="btn_save">save</string>
+    <string name="edit_btn">Edit</string>
+</resources>

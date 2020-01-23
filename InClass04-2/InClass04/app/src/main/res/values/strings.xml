@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InClass04</string>
+    <string name="SelectComplexity">Select Complexity:</string>
+    <string name="Minimum">Minimum:</string>
+    <string name="Maximu">Maximum</string>
+    <string name="Average">Average:</string>
+    <string name="gen">Generate Number Async Task</string>
+</resources>

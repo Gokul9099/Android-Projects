@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "412128832722",
+    "firebase_url": "https://movie-database-bbc1c.firebaseio.com",
+    "project_id": "movie-database-bbc1c",
+    "storage_bucket": "movie-database-bbc1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412128832722:android:76defac5629f196e7f510b",
+        "android_client_info": {
+          "package_name": "com.example.hw04_group26"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412128832722-rsv94t271vulg441lns6bgsoq280umm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPRI8BFVpsF5RDHGW0OV4baPRmCqOfuro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412128832722-rsv94t271vulg441lns6bgsoq280umm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">HW04_Group#26</string>
+    <string name="add">Add Movie</string>
+    <string name="Edit">Edit</string>
+    <string name="delete">delete movie</string>
+    <string name="year">show list by year</string>
+    <string name="rating">show list by rating</string>
+    <string name="description">Description:</string>
+    <string name="name">Name:</string>
+    <string name="Genre">Genre:</string>
+    <string name="Rating">Rating:</string>
+    <string name="years">Year:</string>
+    <string name="imdb">IMDB:</string>
+    <string name="save">Save Changes</string>
+    <string name="movieyear">Movies By Year</string>
+    <string name="movierating">Movies By Rating</string>
+    <string name="title">Title:</string>
+    <string name="finish">finish</string>
+    <string-array name="genre_list">
+        <item>Select</item>
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Family</item>
+        <item>Horror</item>
+        <item>Crime</item>
+        <item>Others</item>
+    </string-array>
+</resources>

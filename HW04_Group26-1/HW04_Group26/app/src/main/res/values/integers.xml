@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="name_length">50</integer>
+    <integer name="desc_length">1000</integer>
+    <integer name="year_length">4</integer>
+</resources>
